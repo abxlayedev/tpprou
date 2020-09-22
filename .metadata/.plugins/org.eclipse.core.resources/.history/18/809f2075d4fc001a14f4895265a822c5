@@ -1,0 +1,23 @@
+
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Personne jean = new Personne();
+		jean.setName("Jean");
+		jean.setMarried(false);
+		
+		Personne jeanne = new Personne();
+		jeanne.setName("Jeanne");
+		jeanne.setMarried(true);
+
+		jean.seMarier(jeanne);
+		
+		
+		
+		
+	}
+
+}
